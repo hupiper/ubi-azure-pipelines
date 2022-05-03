@@ -5,8 +5,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-        imageName: 'fatherlinux/ubi-azure-pipelines-build'
-        serviceConnection: 'quayServiceConnection'
+        imageName: 'hupiper/ubi-azure-pipelines-build'
+        serviceConnection: 'azurequay'
 
 steps:
 - task: Docker@2
